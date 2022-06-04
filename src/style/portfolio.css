@@ -1,0 +1,308 @@
+.container {
+    height: 75vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    box-shadow: 0px 0px 25px #fdeff4;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+#project-section,
+#about-section,
+#skill-section,
+#contact-section {
+    min-height: 100%;
+    font-size: 2rem;
+}
+
+.heading-primary {
+    text-transform: capitalize;
+    margin: 4rem 5rem 1rem;
+    background-image: linear-gradient(-225deg,
+            #f98404 33%,
+            #f9b208 67%,
+            #f7fd04 100%);
+    animation: textclip 2s linear infinite;
+}
+
+/* FOOTER */
+#footer {
+    display: flex;
+    gap: 3.2rem;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding: 1rem;
+}
+
+.copyright {
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-footer {
+    height: 4rem;
+    width: 4rem;
+    color: #dea057;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon-footer:hover {
+    background-color: #ce9461;
+    color: #fcffe7;
+}
+
+/* MAIN */
+#main {
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* HOMEPAGE */
+#homepage {
+    min-height: 100%;
+    padding: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    transition: all 3s;
+}
+
+.type-style {
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 4.4rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+}
+
+.typewriter h1 {
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-image: linear-gradient(-225deg,
+            #e0d8b0 0%,
+            #fcffe7 29%,
+            #dea057 67%,
+            #ce9461 100%);
+    animation: typing 3s steps(40, end), textclip 2.5s infinite,
+        blink-caret 0.75s step-end infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: -100% center;
+    }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ce9461;
+    }
+}
+
+
+/* ABOUT */
+.about-me {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.about-content {
+    margin: 0 0 0 5rem;
+}
+
+.about-img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50% 20% / 10% 40%;
+    border: 0.4rem solid #eee;
+    margin: 2rem auto;
+}
+
+.content {
+    line-height: 2;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.content-me {
+    color: #e67e22;
+}
+
+.content-me span {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.btn-download {
+    font-weight: 400;
+    color: #f9b208;
+    background-color: #212529;
+    border: #f9b208 solid 1px;
+    border-radius: 15px;
+    padding: 10px 35px;
+}
+
+.btn-download:hover {
+    background-color: #f9b208;
+    color: #fff;
+}
+
+.scroll {
+    margin: auto;
+    animation: action 0.5s infinite alternate;
+}
+
+.icon-down {
+    height: 3rem;
+    width: 3rem;
+    color: #e0d8b0;
+}
+
+@keyframes action {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+/* SKILL */
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-card {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 7rem auto;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.skill-icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 4rem
+}
+
+/* PROJECT */
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-heading {
+    color: #f9b208;
+}
+
+.project-desc {
+    width: 70rem;
+    padding: 5rem;
+    line-height: 2;
+}
+
+.project-desc span {
+    margin-right: 1rem;
+}
+
+.project-link {
+    margin-top: 1rem;
+}
+
+.project-link a {
+    border: 1px #f9b208 solid;
+    color: #f9b208;
+    border-radius: 15px;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+.project-link a:hover {
+    background-color: #f9b208;
+    color: #fff;
+}
+
+.projects img {
+    width: 40rem;
+    height: 25rem;
+    margin: auto;
+}
+
+/* Contact */
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin: 1rem 20rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-top: 1rem;
+    height: 4rem;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 7rem;
+}
+
+.submit-btn {
+    font-weight: 400;
+    color: #f9b208;
+    background-color: #212529;
+    border: #f9b208 solid 1px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: fit-content;
+    margin: 1rem auto 2rem;
+}
+
+.submit-btn:hover {
+    color: #212529;
+    background-color: #f9b208;
+}
