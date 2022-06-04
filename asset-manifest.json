@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4cefbed1.css",
+    "main.js": "/portfolio/static/js/main.0eb6ca8c.js",
+    "static/media/homepage.gif": "/portfolio/static/media/homepage.758d1d6e29f997724241.gif",
+    "static/media/museum_website.webp": "/portfolio/static/media/museum_website.12a79c74eb06fce290dc.webp",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.ed932bdf69bf7b5502a1.jpeg",
+    "static/media/AnhThu_Resume.pdf": "/portfolio/static/media/AnhThu_Resume.6eb46f6aa3513a4d3419.pdf",
+    "static/media/instakilogram.webp": "/portfolio/static/media/instakilogram.5d7d56e75ee68d261f5d.webp",
+    "static/media/bookstore_app.webp": "/portfolio/static/media/bookstore_app.ac97dff630d620145aba.webp",
+    "static/media/python_quiz_app.webp": "/portfolio/static/media/python_quiz_app.c8907495a1fdb4c7307e.webp",
+    "index.html": "/portfolio/index.html",
+    "main.4cefbed1.css.map": "/portfolio/static/css/main.4cefbed1.css.map",
+    "main.0eb6ca8c.js.map": "/portfolio/static/js/main.0eb6ca8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cefbed1.css",
+    "static/js/main.0eb6ca8c.js"
+  ]
+}
