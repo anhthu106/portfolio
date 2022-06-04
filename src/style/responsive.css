@@ -29,6 +29,22 @@
         margin: 0;
     }
 
+    /* HOMEPAGE */
+    .typewriter {
+        margin: 4rem 2rem 0;
+        font-size: 210%;
+    }
+
+    .homepage-typewriter {
+        white-space: unset;
+    }
+
+    .homepage-gif img {
+        margin: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
     /* ABOUT */
     .about-me {
         flex-direction: column;
@@ -88,6 +104,22 @@
     .heading-primary {
         font-size: 200%;
         margin-left: 3rem;
+    }
+
+    /* HOMEPAGE */
+    .typewriter {
+        margin: 4rem 1rem 0;
+        font-size: 150%;
+    }
+
+    .homepage-typewriter {
+        white-space: unset;
+    }
+
+    .homepage-gif img {
+        margin: 1rem;
+        width: 50%;
+        height: 50%;
     }
 
     /* ABOUT */

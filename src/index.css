@@ -27,7 +27,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: #212529;
+  background-color: #212529; 
   padding: 10rem;
   color: #f8f9fa;
   scroll-behavior: smooth;
